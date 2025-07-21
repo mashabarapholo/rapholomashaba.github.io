@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Data Analyst Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <h1 class="logo">Mashaba Rapholo</h1>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Data Analyst & Python Developer</h2>
+            <p>Transforming raw data into actionable insights and building tools that solve real-world problems.</p>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <h3>About Me</h3>
+            <p>
+                Hello! I'm a passionate data analyst with a strong foundation in Python and statistical analysis. I thrive on diving deep into datasets, uncovering hidden patterns, and telling compelling stories with data. My journey began with a fascination for how numbers can explain the world around us, and it has evolved into a career focused on building reliable systems and extracting valuable market intelligence.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <div class="container">
+            <h3>Technical Skills</h3>
+            <div class="skill-list">
+                <span>Python</span>
+                <span>Pandas & NumPy</span>
+                <span>Matplotlib & Seaborn</span>
+                <span>Jupyter Notebook</span>
+                <span>SQL</span>
+                <span>Web Scraping</span>
+                <span>Statistical Analysis</span>
+                <span>Git & GitHub</span>
+                <span>HTML & CSS</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h3>My Projects</h3>
+            <div class="project-grid">
+
+                <!-- Project 1: Job Scraper -->
+                <div class="project-card">
+                    <img src="https://private-user-images.githubusercontent.com/76815935/467411251-6db47254-9fa7-4370-bf1e-1e46329eb3c7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTI3NDA0MjMsIm5iZiI6MTc1Mjc0MDEyMywicGF0aCI6Ii83NjgxNTkzNS80Njc0MTEyNTEtNmRiNDcyNTQtOWZhNy00MzcwLWJmMWUtMWU0NjMyOWViM2M3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzE3VDA4MTUyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVjMDg3ODgxY2ViMzQ3NWY2ZWVhZjUyNGVlMmMzNTZlODBlNjZkODVlNTI0ZDRlMDcxZmViOTI5NzAxNWZjZWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.AuCiaO41ukL-81-pBe3-zI6rAbHfhCH-22fyyoQ8koE" alt="Job Skills Chart">
+                    <h4>Job Market Skills Analysis</h4>
+                    <p>
+                        A web scraping project that gathers Python job postings, extracts full descriptions, and analyzes the text to identify the most in-demand technical skills.
+                    </p>
+                    <a href="https://github.com/mashabarapholo/Job-market-skills-analysis-via-scrapping.git" class="project-link" target="_blank">View on GitHub</a>
+                </div>
+
+                <!-- Project 2: Host Analysis -->
+                <div class="project-card">
+                    <img src="https://github.com/user-attachments/assets/ad34e7f6-bcaf-4d3c-a62a-13b23bc9ad34" alt="Host Analysis Project">
+                    <h4>Proactive Host Failure Detection</h4>
+                    <p>
+                        An analysis of server logs to detect underperforming hosts using statistical methods and pattern recognition, providing recommendations to improve infrastructure reliability.
+                    </p>
+                    <a href="https://github.com/mashabarapholo/HOST-PERFOMANCE-ANALYSIS.git" class="project-link" target="_blank">View on GitHub</a>
+                </div>
+
+                <!-- Project 3: Interactive Dashboard -->
+                    <div class="project-card">
+                        <img src="https://github.com/user-attachments/assets/ed8e5c25-e01e-4e0e-a8f1-8854dce77dc8" alt="Interactive Sales Dashboard">
+                        <h4>Interactive Sales Dashboard</h4>
+                        <p>
+                            A web application built with Streamlit and Plotly that allows users to dynamically filter and explore a sales dataset, viewing KPIs and charts in real-time.
+                        </p>
+                        <a href="https://github.com/mashabarapholo/Interactive-sales-dashboard.git" class="project-link" target="_blank">View on GitHub</a>
+                    </div>
+
+                    <!-- Project 4: Automated Pipeline -->
+                    <div class="project-card">
+                        <img src="images/pipeline_screenshot.png" alt="Automated Data Pipeline">
+                        <h4>Automated Weather Data Pipeline</h4>
+                        <p>
+                            An automated Python script that fetches live data from the OpenWeatherMap API, saves it to a persistent database, and sends a daily summary report via email.
+                        </p>
+                        <a href="https://github.com/mashabarapholo/Automated-Weather-Pipeline" class="project-link" target="_blank">View on GitHub</a>
+                    </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h3>Get In Touch</h3>
+            <p>I'm always open to discussing new projects and opportunities. Feel free to connect with me!</p>
+            <div class="contact-links">
+                <a href="koketsomashaba83@gmail.com" target ="_blank">Gmail</a>
+                <a hre="https://www.linkedin.com/in/mashaba-rapholo-7633a331b/" target="_blank">Linkein</a>
+                <a href="https://github.com/mashabarapholo" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Mashaba. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
